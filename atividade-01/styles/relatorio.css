@@ -1,0 +1,45 @@
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 1.2em;
+}
+
+table thead {
+  background-color: #3065ac;
+}
+
+table thead th {
+  padding: 5px 10px;
+}
+
+tr,
+th,
+td {
+  border: 1px solid black;
+}
+
+table tbody tr td {
+  padding: 2px 5px;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: #bdecb6;
+}
+
+button {
+  margin-top: 40px;
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "imposto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Wiliam",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1"
+  }
+}

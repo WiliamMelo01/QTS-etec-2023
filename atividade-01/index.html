@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Imposto</title>
+</head>
+
+<body>
+    <h1>Calculo imposto de renda</h1>
+    <p id="erro"></p>
+    <form method="get">
+        <div class="input_wraper">
+            <label for="nome">Nome</label>
+            <input placeholder=" Digite seu Nome" title="Seu Nome" type="text" name="Nome" id="nome" required>
+        </div>
+        <div class="input_wraper">
+            <label for="cpf">CPF</label>
+            <input placeholder="Digite seu CPF" title="Seu CPF" type="text" name="Cpf" id="cpf" minlength="11" required>
+        </div>
+        <div class="input_wraper">
+            <label for="renda_anual">Renda Anual</label>
+            <input placeholder="Digite sua renda anual" title="Renda Anual" type="number" name="Renda_Anual"
+                id="renda_anual" required>
+        </div>
+        <input type="submit" value="Calcular">
+    </form>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
