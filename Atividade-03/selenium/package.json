@@ -1,0 +1,21 @@
+{
+  "name": "selenium",
+  "version": "1.0.0",
+  "description": "Este projeto contem um unico arquivo com um  conjunto de testes para verificar o correto funcionamento de um formulário de cálculo de imposto. O objetivo é garantir que o sistema valide corretamente os campos do formulário, realize os cálculos de imposto de acordo com as faixas de renda estabelecidas e exiba os resultados corretos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.9.2"
+  },
+  "engines": {
+    "node": ">=14.20.0"
+  }
+}

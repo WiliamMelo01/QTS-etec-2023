@@ -1,0 +1,44 @@
+html, body{
+    background-image: url(../imagens/bg2.jpg);
+    min-height: 100vh;
+    width:100%;
+    margin: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resultado{
+    border-radius: 20px;
+    display:  flex;
+    flex-direction: column;
+    background-color: rgba(81, 6, 152,.5);
+    width: 80%;
+    height: 80%;
+    align-items: center;
+}
+
+.aliquota{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    min-width: 50vh;
+    padding: 10px;
+    margin: 10px;
+}
+
+.imposto{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    min-width: 50vh;
+    padding: 10px;
+}
